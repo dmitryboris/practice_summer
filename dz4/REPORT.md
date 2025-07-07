@@ -4,6 +4,8 @@
 
 ### 1.1 Сравнение на MNIST
 
+Создадим три модели и обучим на MNIST
+
 | Модель          | Параметры | Время обучения (сек, 5 эпох) | Точность train (%) | Точность test (%) | Потеря train | Потеря test |
 |-----------------|-----------|------------------------------|--------------------|-------------------|--------------|-------------|
 | Fully Connected | 235,146   | ~80                          | 98.71              | 97.93             | 0.0398       | 0.0743      |
@@ -18,6 +20,8 @@
 
 ### 1.2 Сравнение на CIFAR-10
 
+Создадим три модели и обучим на CIFAR-10
+
 | Модель                 | Параметры | Время обучения sec | Точность train (%) | Точность test (%) | Потеря train | Потеря test |
 |------------------------|-----------|--------------------|--------------------|-------------------|--------------|-------------|
 | Fully Connected        | 3,805,450 | 65                 | 56.72              | 51.72             | 1.2222       | 1.3997      |
@@ -29,7 +33,6 @@
 ![CNN With Regularization](https://github.com/dmitryboris/practice_summer/blob/main/dz4/reg_plot.png)
 
 ![Residual CNN](https://github.com/dmitryboris/practice_summer/blob/main/dz4/res_plot.png)
-
 
 ![Simple CNN vs Residual CNN](https://github.com/dmitryboris/practice_summer/blob/main/dz4/1.png)
 
