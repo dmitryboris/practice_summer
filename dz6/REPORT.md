@@ -22,7 +22,7 @@ GeneratorTransformer написан на основе Decoder из урока
 
 ## Train
 
-2 эпохи. Размер батча 8. Время обучения ~12 минут
+2 эпохи. Время обучения ~12 минут
 
 ![loss](https://github.com/dmitryboris/practice_summer/blob/main/dz6/loss.png)
 
